@@ -151,6 +151,7 @@ const cssSelectorBuilder = {
     this.res = `${selector1.stringify()} ${combinator} ${selector2.stringify()}`;
     return this;
   },
+
   stringify() {
     const finalRes = this.res;
     this.res = '';
